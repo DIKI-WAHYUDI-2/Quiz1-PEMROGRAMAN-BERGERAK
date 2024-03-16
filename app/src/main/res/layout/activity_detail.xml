@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Detail">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/tvSelamat"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Selamat Datang"
+            android:gravity="center"
+            >
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvTipeMember"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tipe Member"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            >
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="30dp"
+            android:padding="15dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Transaksi Hari Ini"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvKodeBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Kode Barang"
+                android:layout_marginTop="5dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvNamaBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Barang"
+                android:layout_marginTop="5dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvHargaBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Harga"
+                android:layout_marginTop="5dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvTotalHarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total Harga"
+                android:layout_marginTop="5dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvDiskonHarga"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diskon Harga"
+                android:layout_marginTop="5dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvDiskonMember"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Diskon Member"
+                android:layout_marginTop="5dp"
+                >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tvJumlahBayar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumlah bayar"
+                android:layout_marginTop="5dp"
+                >
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Terimakasih telah berbelanja disini!"
+                android:layout_marginTop="50dp">
+            </TextView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Share"
+            android:textSize="20dp"
+            android:layout_marginTop="30dp"
+            >
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
