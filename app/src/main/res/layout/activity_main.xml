@@ -13,17 +13,23 @@
         android:padding="20dp"
         >
 
-        <EditText
-            android:id="@+id/etName"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
-        </EditText>
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/nama_pelanggan"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
+
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tipe Pelanggan"
+            android:text="@string/tipe_pelanggan"
             android:layout_marginTop="5dp"
             >
         </TextView>
@@ -38,7 +44,7 @@
                 android:id="@+id/rbGold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Gold"
+                android:text="@string/emas"
                 >
             </RadioButton>
 
@@ -46,7 +52,7 @@
                 android:id="@+id/rbSilver"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Silver"
+                android:text="@string/Silver"
                 >
             </RadioButton>
 
@@ -54,34 +60,42 @@
                 android:id="@+id/rbBiasa"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Biasa"
+                android:text="@string/biasa"
                 >
             </RadioButton>
 
         </RadioGroup>
 
-        <EditText
-            android:id="@+id/etKodeBarang"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            >
-        </EditText>
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etKodeBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/kode_barang"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
 
-        <EditText
-            android:id="@+id/etJumlahBarang"
+        <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="2dp"
-            >
-        </EditText>
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/etJumlahBarang"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/jumlah_barang"
+                >
+            </com.google.android.material.textfield.TextInputEditText>
+        </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/btnProses"
-            android:layout_width="130dp"
+            android:layout_width="180dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:text="Proses"
+            android:text="@string/proses"
             android:textSize="20dp"
             android:layout_marginTop="10dp"
             >

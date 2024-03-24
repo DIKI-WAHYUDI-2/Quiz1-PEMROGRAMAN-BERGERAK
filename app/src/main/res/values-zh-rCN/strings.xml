@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">M DIKI WAHYUDI Quiz 1</string>
+    <string name="nama_pelanggan">姓名</string>
+    <string name="kode_barang">项目代码</string>
+    <string name="jumlah_barang">数量</string>
+    <string name="tipe_pelanggan">客户类型</string>
+    <string name="emas">金子</string>
+    <string name="Silver">银</string>
+    <string name="biasa">普通的</string>
+    <string name="proses">过程</string>
+    <string name="selamat">欢迎 %1$s</string>
+    <string name="transaksi">今日交易</string>
+    <string name="nama_barang">项目名称 %1$s</string>
+    <string name="harga">价格 %1$s</string>
+    <string name="total_harga">总价 %1$s</string>
+    <string name="harga_diskon">折扣价 %1$s</string>
+    <string name="member_diskon">折扣会员 %1$s</string>
+    <string name="jumlah_bayar">付款金额 %1$s</string>
+    <string name="terimakasih">感谢您在这里购物！</string>
+    <string name="bagikan">分享</string>
+    <string name="tipe_member">客户类型 %1$s</string>
+    <string name="kode_barang1">商品代码 %1$s</string>
+</resources>

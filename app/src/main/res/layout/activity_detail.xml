@@ -17,7 +17,7 @@
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Selamat Datang"
+            android:text="@string/selamat"
             android:gravity="center"
             >
         </TextView>
@@ -26,7 +26,7 @@
             android:id="@+id/tvTipeMember"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Tipe Member"
+            android:text="@string/tipe_pelanggan"
             android:gravity="center"
             android:layout_marginTop="5dp"
             >
@@ -43,7 +43,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Transaksi Hari Ini"
+                android:text="@string/transaksi"
                 >
             </TextView>
 
@@ -51,7 +51,7 @@
                 android:id="@+id/tvKodeBarang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Kode Barang"
+                android:text="@string/kode_barang"
                 android:layout_marginTop="5dp"
                 >
             </TextView>
@@ -60,7 +60,7 @@
                 android:id="@+id/tvNamaBarang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Nama Barang"
+                android:text="@string/nama_barang"
                 android:layout_marginTop="5dp"
                 >
             </TextView>
@@ -69,7 +69,7 @@
                 android:id="@+id/tvHargaBarang"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Harga"
+                android:text="@string/harga"
                 android:layout_marginTop="5dp"
                 >
             </TextView>
@@ -78,7 +78,7 @@
                 android:id="@+id/tvTotalHarga"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Total Harga"
+                android:text="@string/total_harga"
                 android:layout_marginTop="5dp"
                 >
             </TextView>
@@ -87,7 +87,7 @@
                 android:id="@+id/tvDiskonHarga"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Diskon Harga"
+                android:text="@string/harga_diskon"
                 android:layout_marginTop="5dp"
                 >
             </TextView>
@@ -96,7 +96,7 @@
                 android:id="@+id/tvDiskonMember"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Diskon Member"
+                android:text="@string/member_diskon"
                 android:layout_marginTop="5dp"
                 >
             </TextView>
@@ -105,7 +105,7 @@
                 android:id="@+id/tvJumlahBayar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Jumlah bayar"
+                android:text="@string/jumlah_bayar"
                 android:layout_marginTop="5dp"
                 >
             </TextView>
@@ -113,7 +113,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Terimakasih telah berbelanja disini!"
+                android:text="@string/terimakasih"
                 android:layout_marginTop="50dp">
             </TextView>
 
@@ -121,10 +121,10 @@
 
         <Button
             android:id="@+id/btnShare"
-            android:layout_width="130dp"
+            android:layout_width="180dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Share"
+            android:text="@string/bagikan"
             android:textSize="20dp"
             android:layout_marginTop="30dp"
             >

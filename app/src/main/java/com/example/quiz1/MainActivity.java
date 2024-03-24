@@ -8,10 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RadioButton;
 
-import java.text.DecimalFormat;
-
 public class MainActivity extends AppCompatActivity {
-
     private EditText name,kodeBarang,jumlahBarang;
     private Button btnProses;
     private RadioButton rbGold,rbSilver,rbBiasa;
@@ -28,10 +25,6 @@ public class MainActivity extends AppCompatActivity {
         rbGold = findViewById(R.id.rbGold);
         rbSilver = findViewById(R.id.rbSilver);
         rbBiasa = findViewById(R.id.rbBiasa);
-
-        name.setHint("Nama");
-        kodeBarang.setHint("Kode Barang");
-        jumlahBarang.setHint("Jumlah Barang");
 
         btnProses.setOnClickListener(click -> {
 

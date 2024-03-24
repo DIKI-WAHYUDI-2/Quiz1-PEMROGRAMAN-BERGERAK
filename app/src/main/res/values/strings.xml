@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">M DIKI WAHYUDI Quiz 1</string>
+    <string name="nama_pelanggan">Name </string>
+    <string name="kode_barang">Item Code</string>
+    <string name="jumlah_barang">Quantity</string>
+    <string name="tipe_pelanggan">Customer Type</string>
+    <string name="emas">Gold</string>
+    <string name="Silver">Silver</string>
+    <string name="biasa">Normal</string>
+    <string name="proses">Process</string>
+    <string name="selamat">Welcome %1$s</string>
+    <string name="transaksi">Todays Transaction</string>
+    <string name="nama_barang">Item Name %1$s</string>
+    <string name="harga">Price %1$s</string>
+    <string name="total_harga">Total Price %1$s</string>
+    <string name="harga_diskon">Discount Price %1$s</string>
+    <string name="member_diskon">Discount Member %1$s</string>
+    <string name="jumlah_bayar">Payment Amount %1$s</string>
+    <string name="terimakasih">Thanks for shopping here!</string>
+    <string name="bagikan">Share</string>
+    <string name="tipe_member">Customer Type %1$s</string>
+    <string name="kode_barang1">Item Code %1$s</string>
 </resources>
